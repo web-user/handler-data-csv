@@ -6,8 +6,8 @@ import pandas as pd
 task_data = pd.read_csv("test_task_data.csv")
 
 # create dict from dataframe
-studentDict = task_data.to_dict('list')
-parser = argparse.ArgumentParser(description='Process some integers.')
+task_data = task_data.to_dict('list')
+parser = argparse.ArgumentParser(description='Process some.')
 parser.add_argument('--fields', '--list', nargs='+', help='fields help')
 args = parser.parse_args()
 
