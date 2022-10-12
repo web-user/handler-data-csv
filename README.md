@@ -10,3 +10,12 @@ $ pip install -r requirements.txt
 $ python run.py
 
 ```
+
+
+## Tests run 
+
+
+```sh
+$ pytest
+
+```
